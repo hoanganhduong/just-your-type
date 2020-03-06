@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #FAF2F8;
+}
+.text .firstfont {
+  font-family: 'Baskervville', serif; ;
+  font-size: 16px;
+  line-height: 24px;
+  color: #775656;
+}
+
+.text .author {
+  font-size: 14px;
+  font-style: italic;
+}
