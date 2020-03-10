@@ -2,14 +2,33 @@ body {
   margin: 0;
   background-color: #FAF2F8;
 }
+
+.text {
+  position: relative;
+}
+
 .text .firstfont {
-  font-family: 'Baskervville', serif; ;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   color: #775656;
 }
 
 .text .author {
   font-size: 14px;
   font-style: italic;
+}
+
+.text .secondfont {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-shadow: -4px -4px #D6AEC0;
+}
+
+.text .zwischen {
+  position: absolute;
+  top: 30px;
+  left: 0;
 }
