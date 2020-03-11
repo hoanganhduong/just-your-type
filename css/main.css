@@ -1,16 +1,16 @@
 body {
-  margin: 0;
-  background-color: #FAF2F8;
+  background-color: #faf2f8;
 }
+
 div {
- display: block;
+  display: block;
 }
 
 p {
   display: inline-block;
   border-top: 1px solid #775656;
   padding-top: 2em;
-  max-width: 24em;
+  max-width: 15em;
 }
 
 .text {
@@ -21,91 +21,73 @@ p {
 
 .text .firstfont {
   align-items: center;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 26px;
+  font-family: "Josefin Slab", serif;
   color: #775656;
 }
 
-.text .author {
-  font-size: 14px;
-  font-style: italic;
-}
-
 .text .secondfont {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 50px;
-  color: #FFFFFF;
-  text-shadow: -4px -4px #D6AEC0;
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+  text-shadow: -4px -4px #d6aec0;
   margin-left: auto;
   margin-right: auto;
 }
 
 .text .zwischen {
-  top: 2%;
+  top: 5%;
   left: 5%;
 }
 
 .text .immer {
   top: 15%;
-  right: 5%;
+  right: 30%;
 }
 
 .text .und {
-  bottom: 65%;
+  bottom: 70%;
   left: 5%;
 }
 
 .text .nie {
-  bottom: 53%;
-  right: 26%;
+  bottom: 65%;
+  right: 40%;
 }
 
- @media only screen and (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
-   .text {
-     max-width: 60em;
-     padding-left: 1.5em;
-   }
-
-   .firstfont .firstpart {
-     padding-bottom: 2em;
-   }
-
-   .text .immer {
-     top: 12%;
-     left: 22%;
-   }
-
-   .text .und {
-     bottom: 75%;
-     left: 52%;
-   }
-
-   .text .nie {
-     bottom: 68%;
-     right: 20%;
-   }
-
-   html {
-   font-size: 110%;
-   line-height: 1.4;
-    }
-
-    p {
-      text-align: center;
-      display: block;
-      margin: 0 auto;
-    }
- }
-
- @media only screen and (min-width: 60em) {
-
-   html {
-   font-size: 120%;
-   line-height: 1.5;
+  .text {
+    max-width: 60em;
+    padding-left: 1.5em;
   }
+
+  .firstfont .firstpart {
+    padding-bottom: 2em;
+  }
+
+  .text .immer {
+    top: 12%;
+    left: 28%;
+  }
+
+  .text .und {
+    bottom: 75%;
+    left: 56%;
+  }
+
+  .text .nie {
+    bottom: 68%;
+    right: 20%;
+  }
+
+  p {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
 
   .text {
     max-width: 150em;
@@ -132,32 +114,32 @@ p {
     right: 20%;
   }
 
- }
-
-  @media only screen and (min-width: 90em) {
-
-    html {
-    font-size: 130%;
+  p {
+    max-width: 30em
   }
+
+}
+
+@media only screen and (min-width: 90em) {
+
   .text .zwischen {
-    top: 5%;
+    top: 3%;
     left: 20%;
   }
 
   .text .immer {
     top: 12%;
-    left: 35%;
+    left: 37%;
   }
 
   .text .und {
     bottom: 73%;
-    left: 50%;
+    left: 53%;
   }
 
   .text .nie {
     bottom: 67%;
-    right: 32%;
+    right: 30%;
   }
 
-
-  }
+}
