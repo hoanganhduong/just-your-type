@@ -21,12 +21,13 @@ p {
 
 .text .firstfont {
   align-items: center;
-  font-family: "Josefin Slab", serif;
+  font-family: "Cutive Mono", serif;
   color: #775656;
 }
 
 .text .secondfont {
   font-family: "Archivo Black", sans-serif;
+  font-size: 3rem;
   color: #fff;
   text-shadow: -4px -4px #d6aec0;
   margin-left: auto;
@@ -34,13 +35,13 @@ p {
 }
 
 .text .zwischen {
-  top: 5%;
+  top: 2%;
   left: 5%;
 }
 
 .text .immer {
-  top: 15%;
-  right: 30%;
+  top: 12%;
+  right: 10%;
 }
 
 .text .und {
@@ -49,8 +50,8 @@ p {
 }
 
 .text .nie {
-  bottom: 65%;
-  right: 40%;
+  bottom: 62%;
+  right: 30%;
 }
 
 @media only screen and (min-width: 38em) {
@@ -65,7 +66,7 @@ p {
   }
 
   .text .immer {
-    top: 12%;
+    top: 10%;
     left: 28%;
   }
 
