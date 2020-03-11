@@ -5,6 +5,14 @@ body {
 div {
  display: block;
 }
+
+p {
+  display: inline-block;
+  border-top: 1px solid #775656;
+  padding-top: 2em;
+  max-width: 24em;
+}
+
 .text {
   text-align: left;
   max-width: 24em;
@@ -61,18 +69,22 @@ div {
      padding-left: 1.5em;
    }
 
+   .firstfont .firstpart {
+     padding-bottom: 2em;
+   }
+
    .text .immer {
-     top: 10%;
-     left: 25%;
+     top: 12%;
+     left: 22%;
    }
 
    .text .und {
-     bottom: 77%;
-     left: 50%;
+     bottom: 75%;
+     left: 52%;
    }
 
    .text .nie {
-     bottom: 72%;
+     bottom: 68%;
      right: 20%;
    }
 
@@ -81,6 +93,11 @@ div {
    line-height: 1.4;
     }
 
+    p {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
  }
 
  @media only screen and (min-width: 60em) {
@@ -91,8 +108,56 @@ div {
   }
 
   .text {
-    max-width: 100em;
-    padding-left: 5em;
+    max-width: 150em;
+    padding-left: 2em;
+  }
+
+  .text .zwischen {
+    top: 5%;
+    left: 20%;
+  }
+
+  .text .immer {
+    top: 17%;
+    left: 40%;
+  }
+
+  .text .und {
+    bottom: 67%;
+    left: 60%;
+  }
+
+  .text .nie {
+    bottom: 60%;
+    right: 20%;
   }
 
  }
+
+  @media only screen and (min-width: 90em) {
+
+    html {
+    font-size: 130%;
+  }
+  .text .zwischen {
+    top: 5%;
+    left: 20%;
+  }
+
+  .text .immer {
+    top: 12%;
+    left: 35%;
+  }
+
+  .text .und {
+    bottom: 73%;
+    left: 50%;
+  }
+
+  .text .nie {
+    bottom: 67%;
+    right: 32%;
+  }
+
+
+  }
