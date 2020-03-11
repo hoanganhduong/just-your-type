@@ -61,4 +61,38 @@ div {
      padding-left: 1.5em;
    }
 
+   .text .immer {
+     top: 10%;
+     left: 25%;
+   }
+
+   .text .und {
+     bottom: 77%;
+     left: 50%;
+   }
+
+   .text .nie {
+     bottom: 72%;
+     right: 20%;
+   }
+
+   html {
+   font-size: 110%;
+   line-height: 1.4;
+    }
+
+ }
+
+ @media only screen and (min-width: 60em) {
+
+   html {
+   font-size: 120%;
+   line-height: 1.5;
+  }
+
+  .text {
+    max-width: 100em;
+    padding-left: 5em;
+  }
+
  }
