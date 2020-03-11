@@ -7,20 +7,17 @@ div {
 }
 .text {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 24em;
+  margin: 0 auto;
 }
 
 .text .firstfont {
   align-items: center;
-  position: relative;
   font-family: 'Josefin Slab', serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 26px;
   color: #775656;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .text .author {
@@ -38,25 +35,30 @@ div {
 }
 
 .text .zwischen {
-  position: absolute;
-  top: 40px;
-  left: 10%;
+  top: 2%;
+  left: 5%;
 }
 
 .text .immer {
-  position: absolute;
-  top: 150px;
-  left: 50%;
+  top: 15%;
+  right: 5%;
 }
 
 .text .und {
-  position: absolute;
-  bottom: 170px;
-  left: 20px;
+  bottom: 65%;
+  left: 5%;
 }
 
 .text .nie {
-  position: absolute;
-  bottom: 70px;
-  left: 150px;
+  bottom: 53%;
+  right: 26%;
 }
+
+ @media only screen and (min-width: 38em) {
+
+   .text {
+     max-width: 60em;
+     padding-left: 1.5em;
+   }
+
+ }
