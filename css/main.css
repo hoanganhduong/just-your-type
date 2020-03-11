@@ -2,17 +2,25 @@ body {
   margin: 0;
   background-color: #FAF2F8;
 }
-
+div {
+ display: block;
+}
 .text {
-  position: relative;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text .firstfont {
+  align-items: center;
+  position: relative;
   font-family: 'Josefin Slab', serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 26px;
   color: #775656;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text .author {
@@ -25,10 +33,30 @@ body {
   font-size: 50px;
   color: #FFFFFF;
   text-shadow: -4px -4px #D6AEC0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text .zwischen {
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 40px;
+  left: 10%;
+}
+
+.text .immer {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+}
+
+.text .und {
+  position: absolute;
+  bottom: 170px;
+  left: 20px;
+}
+
+.text .nie {
+  position: absolute;
+  bottom: 70px;
+  left: 150px;
 }
